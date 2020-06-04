@@ -10,3 +10,18 @@
 <출력>
 150
 """
+
+num1 = int(input("첫 번째 수를 입력하세요 :"))
+num2 = int(input("두 번째 수를 입력하세요 :"))
+symbol = input("어떤 연산을 하실 건가요? :")
+if symbol=="+":
+    print(num1+num2)
+elif symbol=="-":
+    print(num1-num2)
+elif symbol=="*":
+    print(num1*num2)
+elif symbol == "/":
+    print(num1/num2)
+else:
+    print("올바른 연산기호를 입력하세요.")
+
