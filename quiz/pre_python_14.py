@@ -19,3 +19,11 @@ HELLO
 입력 형식이 잘못되었습니다.
 
 """
+keyword = input("단어 입력(대/소문자 전환):")
+
+if keyword.islower():
+    print(keyword.upper())
+elif keyword.isupper():
+    print(keyword.lower())
+else:
+    print("입력 형식이 잘못되었습니다.")

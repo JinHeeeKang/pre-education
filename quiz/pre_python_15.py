@@ -8,3 +8,12 @@
 <출력>
 남자
 """
+num = input("주민등록번호 :")
+num_list = num.split('-')
+check =list(num_list[1])[0]
+if check == '1' or check == '3':
+    print("남자")
+elif check == '2' or check == '4':
+    print("여자")
+else:
+    print("재입력 필요")
