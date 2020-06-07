@@ -13,3 +13,15 @@ print(is_palindrome("토마토"))
 False
 True
 '''
+def is_palindrome(word):
+    str=[]
+    for i in word[:len(word)]:
+        str.append(i)
+    compare_str = list(reversed(str))
+    if str == compare_str:
+        return True
+    else:
+        return False
+
+print(is_palindrome("radio"))
+print(is_palindrome("토마토"))
