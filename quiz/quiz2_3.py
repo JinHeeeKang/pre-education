@@ -22,7 +22,6 @@ card.print()
 잔액이 부족합니다
 잔액이 9000원 입니다.
 '''
-
 class Card():
     def charge(self,amount):
         self.change = amount
