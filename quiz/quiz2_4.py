@@ -50,7 +50,6 @@ class Discount(Card):
             self.change=self.change-amount
             print("{}에서 {} 원 사용했습니다.".format(place, amount))
 
-
 class Multi_card(Discount,Card):
     def __init__(self):
         print("카드가 발급 되었습니다.")

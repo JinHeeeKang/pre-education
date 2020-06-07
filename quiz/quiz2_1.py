@@ -23,5 +23,6 @@ def is_palindrome(word):
     else:
         return False
 
+
 print(is_palindrome("radio"))
 print(is_palindrome("토마토"))

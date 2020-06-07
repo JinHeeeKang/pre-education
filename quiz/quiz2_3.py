@@ -23,7 +23,6 @@ card.print()
 잔액이 9000원 입니다.
 '''
 class Card():
-
     def charge(self,amount):
         self.change = amount
         print("잔액이 {}원 입니다.".format(self.change))
