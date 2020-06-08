@@ -60,3 +60,4 @@ multi_card.consume(5000,'마트')
 multi_card.consume(10000,'영화관')
 multi_card.consume(2000,'교통')
 multi_card.print()
+
